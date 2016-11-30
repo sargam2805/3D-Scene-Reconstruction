@@ -1,0 +1,20 @@
+version: 1
+creator: callgrind-3.12.0.SVN
+pid: 8203
+cmd:  ./bin/onlinefusion /home/voldemort/Desktop/temp/proj/fastfusion/rgbd_dataset_freiburg3_long_office_household/associate.txt --thread-fusion
+part: 1
+
+
+desc: I1 cache: 
+desc: D1 cache: 
+desc: LL cache: 
+
+desc: Timerange: Basic block 0 - 0
+desc: Trigger: Program termination
+
+positions: instr line
+events: Ir
+summary: 0
+
+
+totals: 0

@@ -1,0 +1,395 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83d0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83d0d.dir/build.make CMakeFiles/cmTC_83d0d.dir/build
+make[1]: Entering directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83d0d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_83d0d.dir/CheckSymbolExists.cxx.o -c /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_83d0d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83d0d.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_83d0d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83d0d/fast' failed
+make: *** [cmTC_83d0d/fast] Error 2
+
+File /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6dcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6dcf.dir/build.make CMakeFiles/cmTC_e6dcf.dir/build
+make[1]: Entering directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6dcf.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_e6dcf.dir/CheckSymbolExists.cxx.o -c /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_e6dcf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e6dcf.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e6dcf.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6dcf/fast' failed
+make: *** [cmTC_e6dcf/fast] Error 2
+
+File /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3eb44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3eb44.dir/build.make CMakeFiles/cmTC_3eb44.dir/build
+make[1]: Entering directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3eb44.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_3eb44.dir/CheckSymbolExists.cxx.o -c /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_3eb44.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3eb44.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3eb44.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3eb44/fast' failed
+make: *** [cmTC_3eb44/fast] Error 2
+
+File /home/akhil/Desktop/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3250/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3250.dir/build.make CMakeFiles/cmTC_e3250.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3250.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_e3250.dir/CheckSymbolExists.c.o   -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3250
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3250.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_e3250.dir/CheckSymbolExists.c.o  -o cmTC_e3250 -rdynamic 
+CMakeFiles/cmTC_e3250.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e3250.dir/build.make:97: recipe for target 'cmTC_e3250' failed
+make[1]: *** [cmTC_e3250] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e3250/fast' failed
+make: *** [cmTC_e3250/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34305/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34305.dir/build.make CMakeFiles/cmTC_34305.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34305.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_34305.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34305.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_34305.dir/CheckFunctionExists.c.o  -o cmTC_34305 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_34305.dir/build.make:97: recipe for target 'cmTC_34305' failed
+make[1]: *** [cmTC_34305] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_34305/fast' failed
+make: *** [cmTC_34305/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c8dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c8dc.dir/build.make CMakeFiles/cmTC_0c8dc.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c8dc.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_0c8dc.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+CMakeFiles/cmTC_0c8dc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0c8dc.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0c8dc.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0c8dc/fast' failed
+make: *** [cmTC_0c8dc/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f49a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f49a.dir/build.make CMakeFiles/cmTC_0f49a.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f49a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_0f49a.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+CMakeFiles/cmTC_0f49a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0f49a.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0f49a.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0f49a/fast' failed
+make: *** [cmTC_0f49a/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7af6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7af6c.dir/build.make CMakeFiles/cmTC_7af6c.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7af6c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_7af6c.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+CMakeFiles/cmTC_7af6c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7af6c.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7af6c.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7af6c/fast' failed
+make: *** [cmTC_7af6c/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cac53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cac53.dir/build.make CMakeFiles/cmTC_cac53.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cac53.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_cac53.dir/CheckSymbolExists.c.o   -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cac53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cac53.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_cac53.dir/CheckSymbolExists.c.o  -o cmTC_cac53 -rdynamic 
+CMakeFiles/cmTC_cac53.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cac53.dir/build.make:97: recipe for target 'cmTC_cac53' failed
+make[1]: *** [cmTC_cac53] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cac53/fast' failed
+make: *** [cmTC_cac53/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a837e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a837e.dir/build.make CMakeFiles/cmTC_a837e.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a837e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a837e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a837e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a837e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a837e.dir/CheckFunctionExists.c.o  -o cmTC_a837e -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a837e.dir/build.make:97: recipe for target 'cmTC_a837e' failed
+make[1]: *** [cmTC_a837e] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a837e/fast' failed
+make: *** [cmTC_a837e/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b8ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b8ed.dir/build.make CMakeFiles/cmTC_3b8ed.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b8ed.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_3b8ed.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+CMakeFiles/cmTC_3b8ed.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3b8ed.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3b8ed.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b8ed/fast' failed
+make: *** [cmTC_3b8ed/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d548b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d548b.dir/build.make CMakeFiles/cmTC_d548b.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d548b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_d548b.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+CMakeFiles/cmTC_d548b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d548b.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d548b.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d548b/fast' failed
+make: *** [cmTC_d548b/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10c29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10c29.dir/build.make CMakeFiles/cmTC_10c29.dir/build
+make[1]: Entering directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10c29.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -fopenmp -Wall -mavx2 -funroll-loops -DOWNAVX -fopenmp    -o CMakeFiles/cmTC_10c29.dir/CheckSymbolExists.cxx.o -c /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+CMakeFiles/cmTC_10c29.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_10c29.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_10c29.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_10c29/fast' failed
+make: *** [cmTC_10c29/fast] Error 2
+
+File /home/voldemort/Desktop/temp/proj/fastfusion/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
